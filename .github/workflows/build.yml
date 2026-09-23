@@ -2,7 +2,7 @@ name: Bygg debug-APK
 
 on:
   push:
-    branches: [ main, 'claude/vigilant-gates-vbz5qo' ]
+    branches: [ main ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
