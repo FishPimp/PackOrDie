@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lekfull resväska med en bock – PackMasters ikon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Handtag -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M44,38 L44,32 Q44,28 48,28 L60,28 Q64,28 64,32 L64,38" />
+    <!-- Väskkropp -->
+    <path
+        android:fillColor="#FFFFDCBE"
+        android:pathData="M34,38 L74,38 Q80,38 80,44 L80,74 Q80,80 74,80 L34,80 Q28,80 28,74 L28,44 Q28,38 34,38 Z" />
+    <!-- Remmar -->
+    <path
+        android:fillColor="#FFF5A524"
+        android:pathData="M38,38 L44,38 L44,80 L38,80 Z" />
+    <path
+        android:fillColor="#FFF5A524"
+        android:pathData="M64,38 L70,38 L70,80 L64,80 Z" />
+    <!-- Bock -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FF00897B"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M45,59 L52,66 L64,52" />
+</vector>

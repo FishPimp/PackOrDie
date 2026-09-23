@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Förvalda objekt som läggs in i databasen vid första start. -->
+<resources>
+    <!-- Kategorier -->
+    <string name="seed_category_clothes">Kläder</string>
+    <string name="seed_category_hygiene">Hygienartiklar</string>
+    <string name="seed_category_electronics">Elektronik</string>
+    <string name="seed_category_baby">Barn/Baby</string>
+    <string name="seed_category_documents">Dokument</string>
+    <string name="seed_category_training">Träningskläder</string>
+    <string name="seed_category_swim">Bad &amp; strand</string>
+    <string name="seed_category_food">Mat &amp; snacks</string>
+    <string name="seed_category_medicine">Medicin &amp; första hjälpen</string>
+    <string name="seed_category_other">Övrigt</string>
+
+    <!-- Profiler -->
+    <string name="seed_profile_adult">Vuxen 1</string>
+    <string name="seed_profile_child">Barn 1</string>
+    <string name="seed_profile_shared">Gemensamt</string>
+
+    <!-- Kläder -->
+    <string name="seed_item_tshirt">T-shirt</string>
+    <string name="seed_item_underwear">Underkläder</string>
+    <string name="seed_item_socks">Strumpor</string>
+    <string name="seed_item_trousers">Byxor</string>
+    <string name="seed_item_sweater">Tröja</string>
+    <string name="seed_item_jacket">Jacka</string>
+    <string name="seed_item_pyjamas">Pyjamas</string>
+    <string name="seed_item_shoes">Skor</string>
+    <string name="seed_item_kid_clothes">Barnkläder (ombyte)</string>
+    <string name="seed_item_kid_pyjamas">Pyjamas barn</string>
+
+    <!-- Hygien -->
+    <string name="seed_item_toothbrush">Tandborste</string>
+    <string name="seed_item_toothpaste">Tandkräm</string>
+    <string name="seed_item_shampoo">Schampo &amp; duschkräm</string>
+    <string name="seed_item_deodorant">Deodorant</string>
+    <string name="seed_item_hairbrush">Hårborste</string>
+    <string name="seed_item_razor">Rakhyvel</string>
+    <string name="seed_item_sunscreen">Solkräm</string>
+
+    <!-- Elektronik -->
+    <string name="seed_item_charger">Mobilladdare</string>
+    <string name="seed_item_headphones">Hörlurar</string>
+    <string name="seed_item_powerbank">Powerbank</string>
+    <string name="seed_item_tablet">Surfplatta</string>
+    <string name="seed_item_camera">Kamera</string>
+
+    <!-- Barn/Baby -->
+    <string name="seed_item_diapers">Blöjor</string>
+    <string name="seed_item_wipes">Våtservetter</string>
+    <string name="seed_item_bottle">Nappflaska</string>
+    <string name="seed_item_pacifier">Napp</string>
+    <string name="seed_item_bodysuits">Bodys</string>
+    <string name="seed_item_spare_clothes">Extrakläder</string>
+    <string name="seed_item_cuddly_toy">Gosedjur</string>
+    <string name="seed_item_rain_clothes">Regnkläder</string>
+    <string name="seed_item_blanket">Filt</string>
+
+    <!-- Dokument -->
+    <string name="seed_item_passport">Pass</string>
+    <string name="seed_item_id_card">ID-kort</string>
+    <string name="seed_item_tickets">Biljetter</string>
+    <string name="seed_item_insurance">Försäkringskort</string>
+    <string name="seed_item_wallet">Plånbok</string>
+
+    <!-- Träning -->
+    <string name="seed_item_gym_clothes">Träningskläder</string>
+    <string name="seed_item_gym_shoes">Träningsskor</string>
+    <string name="seed_item_towel">Handduk</string>
+    <string name="seed_item_water_bottle">Vattenflaska</string>
+    <string name="seed_item_padlock">Hänglås</string>
+    <string name="seed_item_gym_card">Gymkort</string>
+
+    <!-- Bad -->
+    <string name="seed_item_swimwear">Badkläder</string>
+    <string name="seed_item_beach_towel">Badlakan</string>
+    <string name="seed_item_goggles">Simglasögon</string>
+    <string name="seed_item_swim_toys">Badleksaker</string>
+    <string name="seed_item_sunglasses">Solglasögon</string>
+
+    <!-- Mat -->
+    <string name="seed_item_snacks">Mellanmål</string>
+    <string name="seed_item_lunchbox">Matlåda</string>
+
+    <!-- Medicin -->
+    <string name="seed_item_plasters">Plåster</string>
+    <string name="seed_item_painkillers">Febernedsättande</string>
+    <string name="seed_item_prescription">Receptbelagd medicin</string>
+
+    <!-- Övrigt -->
+    <string name="seed_item_keys">Nycklar</string>
+    <string name="seed_item_umbrella">Paraply</string>
+
+    <!-- Väskor -->
+    <string name="seed_bag_gym">Gymväska</string>
+    <string name="seed_bag_preschool">Förskolevagn</string>
+    <string name="seed_bag_swim">Badväska</string>
+    <string name="seed_bag_country_house">Landstället</string>
+    <string name="seed_bag_vacation">7 dagars semester</string>
+
+    <!-- Underväskor -->
+    <string name="seed_subbag_cabin">Kabinväska</string>
+    <string name="seed_subbag_toiletry">Hygienväska</string>
+    <string name="seed_subbag_kids_backpack">Barnens ryggsäck</string>
+</resources>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PackMaster</string>
+
+    <!-- Navigering -->
+    <string name="nav_bags">Väskor</string>
+    <string name="nav_catalog">Katalog</string>
+    <string name="nav_profiles">Profiler</string>
+
+    <!-- Allmänna åtgärder -->
+    <string name="action_back">Tillbaka</string>
+    <string name="action_cancel">Avbryt</string>
+    <string name="action_clear">Rensa</string>
+    <string name="action_close">Stäng</string>
+    <string name="action_decrease">Minska</string>
+    <string name="action_increase">Öka</string>
+    <string name="action_delete">Ta bort</string>
+    <string name="action_done">Klar</string>
+    <string name="action_edit">Redigera</string>
+    <string name="action_more">Fler alternativ</string>
+    <string name="action_ok">OK</string>
+    <string name="action_save">Spara</string>
+    <string name="action_undo">Ångra</string>
+    <string name="action_use">Använd</string>
+    <string name="action_reset_list">Återställ packlista</string>
+
+    <!-- Startsidan / väskor -->
+    <string name="bags_subtitle">Packa smart – aldrig glöm något igen!</string>
+    <string name="bags_new">Ny väska</string>
+    <string name="bags_empty_title">Inga väskor ännu</string>
+    <string name="bags_empty_message">Skapa din första vardagsväska eller planera en resa med knappen nedan.</string>
+    <string name="bags_section_everyday">Vardagsväskor</string>
+    <string name="bags_section_everyday_hint">Återkommande rutiner – återställ efter varje användning</string>
+    <string name="bags_section_trips">Reseväskor</string>
+    <string name="bags_section_trips_hint">Antal räknas automatiskt utifrån resans längd</string>
+    <string name="percent">%1$d %%</string>
+    <string name="progress_items_packed">%1$d/%2$d saker packade</string>
+    <string name="chip_laundry">Tvätt</string>
+    <string name="chip_max_weight">Max %1$s</string>
+
+    <!-- Skapa/redigera väska -->
+    <string name="bag_new_title">Ny väska</string>
+    <string name="bag_edit_title">Redigera väska</string>
+    <string name="bag_delete">Ta bort väska</string>
+    <string name="bag_name">Namn</string>
+    <string name="bag_name_hint_everyday">T.ex. Gymväska</string>
+    <string name="bag_name_hint_trip">T.ex. Landstället</string>
+    <string name="bag_type">Typ av väska</string>
+    <string name="bag_type_everyday">Vardagsväska</string>
+    <string name="bag_type_trip">Reseväska</string>
+    <string name="bag_type_everyday_hint">För återkommande rutiner som gymmet, förskolan eller badhuset. Bocka av och återställ inför nästa gång.</string>
+    <string name="bag_type_trip_hint">För flerdagsresor. Antalet av varje objekt räknas ut efter hur många dagar resan varar.</string>
+    <string name="bag_duration">Resans längd</string>
+    <string name="bag_duration_days">Antal dagar</string>
+    <string name="bag_duration_dates">Välj datum</string>
+    <string name="bag_pick_dates">Välj start- och slutdatum</string>
+    <string name="bag_date_range">%1$s – %2$s (%3$s)</string>
+    <string name="bag_trip_days">Resa · %1$s</string>
+    <string name="bag_laundry">Tvättmöjlighet finns</string>
+    <string name="bag_laundry_hint">Dagliga kläder begränsas till max %1$d dagar eftersom du kan tvätta.</string>
+    <string name="bag_weight_budget">Viktbudget</string>
+    <string name="bag_weight_budget_hint">Sätt en maxvikt, t.ex. 23 kg för incheckat bagage.</string>
+    <string name="bag_max_weight">Maxvikt</string>
+
+    <!-- Packningsvyn -->
+    <string name="packing_add_items">Lägg till</string>
+    <string name="packing_trip_info">Resan är %1$s lång</string>
+    <string name="packing_laundry_cap">🧺 Tvättbara kläder är begränsade till %1$d dagar.</string>
+    <string name="packing_empty_title">Packlistan är tom</string>
+    <string name="packing_empty_message">Lägg till objekt från katalogen med knappen nedan.</string>
+    <string name="packing_all_packed_title">Allt är packat!</string>
+    <string name="packing_all_packed_message">Välj \"Visa alla\" för att se hela listan.</string>
+    <string name="progress_msg_empty">Dags att fylla väskan!</string>
+    <string name="progress_msg_start">Nu kör vi! Bocka av sakerna allt eftersom du packar.</string>
+    <string name="progress_msg_started">Bra start! 💪</string>
+    <string name="progress_msg_half">Mer än halvvägs – snyggt jobbat!</string>
+    <string name="progress_msg_almost">Nästan klart, bara lite kvar!</string>
+    <string name="progress_msg_done">Allt packat – trevlig tur! 🎉</string>
+    <string name="group_by">Gruppera efter</string>
+    <string name="group_by_category">Kategori</string>
+    <string name="group_by_sub_bag">Underväska</string>
+    <string name="group_by_profile">Person</string>
+    <string name="group_progress">%1$d/%2$d</string>
+    <string name="filter_show_all">Visa alla</string>
+    <string name="filter_only_unpacked">Visa endast opackade</string>
+    <string name="quantity_badge">%1$d st</string>
+    <string name="main_bag">Huvudväskan</string>
+    <string name="none_category">Utan kategori</string>
+    <string name="none_profile">Ingen person</string>
+    <string name="snackbar_list_reset">Packlistan är återställd</string>
+    <string name="snackbar_all_packed">Allt packat! 🎉</string>
+
+    <plurals name="snackbar_added">
+        <item quantity="one">%1$d objekt tillagt</item>
+        <item quantity="other">%1$d objekt tillagda</item>
+    </plurals>
+
+    <!-- Vikt -->
+    <string name="unit_grams">g</string>
+    <string name="unit_kg">kg</string>
+    <string name="weight_g">%1$d g</string>
+    <string name="weight_kg">%1$s kg</string>
+    <string name="weight_total">Total vikt: %1$s</string>
+    <string name="weight_of_max">%1$s av %2$s</string>
+    <string name="weight_over_by">%1$s för mycket!</string>
+    <string name="weight_sub_bag">%1$s %2$s: %3$s</string>
+    <string name="weight_sub_bag_of_max">%1$s %2$s: %3$s av %4$s</string>
+
+    <!-- Lägg till från katalog -->
+    <string name="add_sheet_title">Lägg till från katalogen</string>
+    <string name="add_sheet_target">Packa i</string>
+    <string name="add_sheet_already_added">redan i väskan</string>
+    <string name="add_sheet_create_new">Nytt objekt</string>
+    <plurals name="add_selected">
+        <item quantity="one">Lägg till %1$d</item>
+        <item quantity="other">Lägg till %1$d</item>
+    </plurals>
+
+    <!-- Underväskor -->
+    <string name="sub_bags_title">Underväskor</string>
+    <string name="sub_bags_hint">Dela upp packningen i mindre väskor, t.ex. Kabinväska, Hygienväska eller Barnens ryggsäck.</string>
+    <string name="sub_bags_empty">Inga underväskor ännu – allt packas i huvudväskan.</string>
+    <string name="sub_bags_add">Ny underväska</string>
+    <string name="sub_bags_edit">Redigera underväska</string>
+    <string name="sub_bags_max_weight">Maxvikt (valfritt)</string>
+
+    <!-- Katalog -->
+    <string name="catalog_title">Masterkatalog</string>
+    <string name="catalog_subtitle">%1$d objekt</string>
+    <string name="catalog_new_item">Nytt objekt</string>
+    <string name="catalog_custom_badge">Eget</string>
+    <string name="catalog_empty_title">Inga objekt hittades</string>
+    <string name="catalog_empty_message">Prova en annan sökning eller lägg till ett eget objekt.</string>
+    <string name="search_catalog">Sök i katalogen</string>
+    <string name="filter_all_categories">Alla</string>
+    <string name="categories_title">Kategorier</string>
+    <string name="category_new">Ny kategori</string>
+    <string name="category_edit">Redigera kategori</string>
+
+    <!-- Objektredigerare -->
+    <string name="editor_new_item">Nytt objekt</string>
+    <string name="editor_edit_item">Redigera objekt</string>
+    <string name="editor_name">Namn</string>
+    <string name="editor_pick_emoji">Välj ikon</string>
+    <string name="editor_pick_image">Egen bild</string>
+    <string name="editor_remove_image">Ta bort bild</string>
+    <string name="editor_category">Kategori</string>
+    <string name="editor_new_category">+ Ny</string>
+    <string name="editor_profile">Person/profil</string>
+    <string name="editor_sub_bag">Underväska</string>
+    <string name="editor_quantity_rule">Antal</string>
+    <string name="editor_amount_fixed">Antal (fast)</string>
+    <string name="editor_amount_per_day">Antal per dag</string>
+    <string name="editor_amount_per_night">Antal per natt</string>
+    <string name="editor_amount_hint">Decimaler går bra, t.ex. 0,5 per dag = varannan dag.</string>
+    <string name="editor_laundry">Påverkas av tvätt</string>
+    <string name="editor_laundry_hint">Begränsas till max 7 dagar när resan har tvättmöjlighet.</string>
+    <string name="editor_weight">Uppskattad vikt per styck</string>
+    <string name="editor_weight_hint">Används för viktbudgeten. Lämna tomt om okänt.</string>
+    <string name="rule_fixed">Fast</string>
+    <string name="rule_per_day">Per dag</string>
+    <string name="rule_per_night">Per natt</string>
+    <string name="rule_desc_fixed">%1$s st fast</string>
+    <string name="rule_desc_per_day">%1$s× per dag</string>
+    <string name="rule_desc_per_night">%1$s× per natt</string>
+
+    <!-- Emoji-väljare -->
+    <string name="emoji_picker_title">Välj ikon</string>
+    <string name="emoji_picker_custom">Eller skriv en egen emoji</string>
+
+    <!-- Profiler -->
+    <string name="profiles_title">Profiler</string>
+    <string name="profiles_hint">Tagga objekt per person, t.ex. Vuxen 1, Barn 1 eller Gemensamt. Tryck på en profil för att byta namn.</string>
+    <string name="profiles_new">Ny profil</string>
+    <string name="profiles_edit">Redigera profil</string>
+    <string name="profiles_empty_title">Inga profiler</string>
+    <string name="profiles_empty_message">Lägg till personer för att kunna gruppera packlistan per person.</string>
+    <string name="settings_appearance">Utseende</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Ljust</string>
+    <string name="theme_dark">Mörkt</string>
+
+    <!-- Bekräftelser -->
+    <string name="confirm_delete_bag_title">Ta bort väska?</string>
+    <string name="confirm_delete_bag_message">\"%1$s\" och hela dess packlista tas bort permanent.</string>
+    <string name="confirm_delete_item_title">Ta bort objekt?</string>
+    <string name="confirm_delete_item_message">\"%1$s\" tas bort.</string>
+    <string name="confirm_delete_category_title">Ta bort kategori?</string>
+    <string name="confirm_delete_category_message">\"%1$s\" tas bort. Objekten i kategorin blir kvar men utan kategori.</string>
+    <string name="confirm_delete_profile_title">Ta bort profil?</string>
+    <string name="confirm_delete_profile_message">\"%1$s\" tas bort. Objekt som var taggade med profilen blir kvar.</string>
+    <string name="confirm_delete_sub_bag_title">Ta bort underväska?</string>
+    <string name="confirm_delete_sub_bag_message">\"%1$s\" tas bort. Objekten flyttas till huvudväskan.</string>
+
+    <plurals name="days">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dagar</item>
+    </plurals>
+</resources>
