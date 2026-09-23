@@ -22,17 +22,15 @@ jobs:
 
     steps:
       - name: Checka ut koden
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Installera JDK 17
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: '17'
 
-      - name: Installera Android SDK
-        uses: android-actions/setup-android@v3
-
+      # Android SDK finns förinstallerad på GitHubs Ubuntu-runners (ANDROID_HOME).
       - name: Konfigurera Gradle
         uses: gradle/actions/setup-gradle@v4
 
